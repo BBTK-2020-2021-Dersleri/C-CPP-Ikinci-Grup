@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-//Yýldýz bastýrma iþlemi/soru 2
+//Yildiz bastirma islemi/soru 2
 
 int main() {
 

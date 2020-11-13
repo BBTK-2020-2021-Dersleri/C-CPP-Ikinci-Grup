@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-// içi boþ yýldýzlý üçgen
+// ici bos yildizli ucgen
 
 int main() {
 

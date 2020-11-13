@@ -13,7 +13,7 @@ int main() {
 
 	copynum = num;
 
-	while (copynum != 0) {//satýr bulma iþlemi
+	while (copynum != 0) {//satir bulma islemi
 		digit++;
 		copynum /= 10;
 	}
@@ -38,7 +38,7 @@ int main() {
 	1 / 10 = 0
 	
 	*/
-	while (copynum != 0) {//armstrong sayý bulma
+	while (copynum != 0) {//armstrong sayi bulma
 		remainder = copynum % 10;
 		sum += pow(remainder, digit);
 		copynum = copynum / 10;

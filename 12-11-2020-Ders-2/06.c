@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//yýldýzlarla diamond þekli bastýrma
+//yildizlarla diamond sekli bastirma
 
 int main() {
 
@@ -9,7 +9,7 @@ int main() {
 	printf("Input : ");
 	scanf_s("%d", &row);
 
-	//üst kýsým
+	//ust kisim
 	for (int i = 0; i <row; i++) {
 		for (int j = i; j < row; j++)
 			printf(" ");
@@ -23,6 +23,7 @@ int main() {
 		
 	
 	}
+	//alt kisim
 	for (int i = 0; i < row; i++) {
 
 		for (int l = 0; l < i; l++)
